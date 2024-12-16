@@ -1,0 +1,158 @@
+ol, ul {
+    list-style: none;
+}
+
+header {
+    background-color: rgb(31, 6, 6);
+    padding: 10px 15px 10px 15px
+    ;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+header a i, h1 {
+    color: white;
+    font-size: 1.0em;
+}
+nav ul li a {
+    text-decoration: none;
+}
+header nav ul {
+    display: flex;
+    gap: 2.5em;
+}
+header nav ul a, li {
+    color:white;
+}
+body {
+    background-color: rgb(213, 236, 236);
+}
+.seccion1 {
+    background-color: rgb(100, 196, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 15px;
+}
+.acerca-de {
+        font-family: "Chelsea Market", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        padding: 10px;
+      
+      
+}
+.seccion2 {
+    display: flex;
+    justify-content:space-around;
+    gap:20px;
+    border-radius: 15px;
+    background-color: rgb(100,196,164);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top:15px ;
+    padding-bottom: 15px;
+}
+.seccion3 {
+    display: flex;
+    justify-content:space-around;
+    gap:20px;
+    font-family: "Chelsea Market", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(100, 196, 164);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+    
+}
+.seccion4 {
+    background-color: rgb(100, 196, 164);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    max-width: auto;
+    margin: auto;
+}
+.container h2 {
+    font-size: 25px;
+    align-items: baseline;
+    margin: 10px 0 5px 0;
+    color: #222;
+    max-height: auto;
+    padding-bottom: 3px;
+    margin-left: 10px;
+}
+
+.container p {
+    font-size: 20px;
+    align-items: baseline;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #0a0520;
+    line-height: 1.2;
+    padding-bottom: 5px ;
+}
+
+
+
+footer {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 6, 6);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+.footer a, ul, p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 1.5em;
+    
+}
+button {
+    border-radius: 10px;
+    background-color: rgb(36, 6, 6);
+    font-family:"Chelsea Market", system-ui ;
+    font-style: normal;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #5d6163; /* Dark gray */
+    cursor: pointer;
+    color: white;
+    height: auto;
+    width: auto ;
+    margin-right: 6px;
+}
